@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Qt Application with Visual Studio Debugger",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "visualizerFile": "c:\\Users\\pdickmann\\AppData\\Roaming\\Code\\User\\workspaceStorage\\f888341576386fcda4bbccd6d2e2bdd4\\tonka3000.qtvsctools\\qt.natvis.xml",
+            "windows": {
+                "environment": [
+                    {
+                        "name": "PATH",
+                        "value": "${env:PATH};${command:qt-cpp.kitDirectory}${/}bin"
+                    }
+                ]
+            }
+        }
+    ]
+}
